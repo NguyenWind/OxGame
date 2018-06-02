@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OxGame</string>
+    <string name="reset">Reset</string>
+    <string name="_0">0</string>
+    <string name="hikiwake">引き分け:</string>
+
+    <string name="o">O:</string>
+
+    <string name="x">X:</string>
+</resources>
