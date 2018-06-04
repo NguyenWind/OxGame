@@ -97,37 +97,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         c2 = bt8.getText().toString();
         c3 = bt9.getText().toString();
 
-        if (a1.equals(a2) && a1.equals(a3) && a1.equals("X")) {
+        if (a1.equals(a2) && a1.equals(a3) && !a1.equals("")) {
             return true;
-        } else if (a1.equals(a2) && a1.equals(a3) && a1.equals("O")) {
+        } else if (b1.equals(b2) && b1.equals(b3) && !b1.equals("")) {
             return true;
-        } else if (b1.equals(b2) && b1.equals(b3) && b1.equals("X")) {
+        } else if (c1.equals(c2) && c1.equals(c3) && !c1.equals("")) {
             return true;
-        } else if (b1.equals(b2) && b1.equals(b3) && b1.equals("O")) {
+        }  else if (a1.equals(b1) && a1.equals(c1) && !a1.equals("")) {
             return true;
-        } else if (c1.equals(c2) && c1.equals(c3) && c1.equals("X")) {
+        } else if (a2.equals(b2) && a2.equals(c2) && !a2.equals("")) {
             return true;
-        } else if (c1.equals(c2) && c1.equals(c3) && c1.equals("O")) {
+        } else if (a3.equals(b3) && a3.equals(c3) && !a3.equals("")) {
             return true;
-        } else if (a1.equals(b1) && a1.equals(c1) && a1.equals("X")) {
+        }  else if (a1.equals(b2) && a1.equals(c3) && !a1.equals("")) {
             return true;
-        } else if (a1.equals(b1) && a1.equals(c1) && a1.equals("O")) {
-            return true;
-        } else if (a2.equals(b2) && a2.equals(c2) && a2.equals("X")) {
-            return true;
-        } else if (a2.equals(b2) && a2.equals(c2) && a2.equals("O")) {
-            return true;
-        } else if (a3.equals(b3) && a3.equals(c3) && a3.equals("X")) {
-            return true;
-        } else if (a3.equals(b3) && a3.equals(c3) && a3.equals("O")) {
-            return true;
-        } else if (a1.equals(b2) && a1.equals(c3) && a1.equals("X")) {
-            return true;
-        } else if (a1.equals(b2) && a1.equals(c3) && a1.equals("O")) {
-            return true;
-        } else if (a3.equals(b2) && a3.equals(c1) && a3.equals("X")) {
-            return true;
-        } else if (a3.equals(b2) && a3.equals(c1) && a3.equals("O")) {
+        } else if (a3.equals(b2) && a3.equals(c1) && !a3.equals("")) {
             return true;
         }
         return false;
